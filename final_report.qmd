@@ -1,0 +1,104 @@
+---
+title: Hospital Equipment Reliability & Maintenance Risk Assistant
+author: Victor Rangel
+format:
+  pdf:
+    toc: true
+---
+
+## 1. Introduction
+* **Industry:** Healthcare / Clinical Engineering
+* **Intended User:** Hospital Equipment Operations Manager
+* **Problem:** Unplanned downtime of critical diagnostic devices (MRI, CT, Ventilators) delays treatments and spikes repair costs.
+* **Decision Supported:** Prioritize equipment for immediate preventive maintenance vs. routine checks.
+
+## 2. Dataset
+Data contains 300 hospital diagnostic equipment records tracking age, operating hours, downtime, and failure events.
+
+```{r setup, message=FALSE, warning=FALSE}
+df <- read.csv("data/equipment_data.csv")
+head(df, 3)
+```
+
+## 3. Explore Skill: Downtime Distribution
+```{r explore}
+# Data quality check for downtime variable
+cat("Missing values in downtime_hours:", sum(is.na(df$downtime_hours)), "\n")
+cat("Negative downtime values:", sum(df$downtime_hours < 0, na.rm = TRUE), "\n")
+
+summary(df$downtime_hours)
+hist(df$downtime_hours, main="Downtime Distribution", col="skyblue", xlab="Hours")
+```
+* **Interpretation:** Downtime is right-skewed, showing most devices experience short outages, but a few suffer major breakdowns.
+* **Limitation:** Highly skewed data means the mean downtime can be driven by a few extreme outlier events.
+
+## 4. Compare Skill: High-Use vs Standard-Use
+```{r compare}
+table(df$usage_category)
+t.test(downtime_hours ~ usage_category, data = df)
+```
+* **Interpretation:** Tests whether heavy equipment usage significantly impacts breakdown severity.
+* **Limitation:** Comparison assumes observational group parity without controlling for device age directly in this test.
+
+## 5. Model Skill: Predicting Unexpected Failures
+```{r model}
+model <- glm(unexpected_failure ~ device_age_years + operating_hours + last_service_months_ago, 
+             data = df, family = binomial)
+summary(model)
+
+# Classification Accuracy Metrics
+df$pred_prob <- predict(model, type = "response")
+df$pred_class <- ifelse(df$pred_prob > 0.5, 1, 0)
+conf_matrix <- table(Predicted = df$pred_class, Actual = df$unexpected_failure)
+print(conf_matrix)
+
+accuracy <- sum(diag(conf_matrix)) / sum(conf_matrix)
+cat("Model Classification Accuracy:", round(accuracy * 100, 2), "%\n")
+```
+* **Interpretation:** Machine age and overall operating hours significantly increase unexpected failure probability. The model achieves strong overall classification accuracy.
+* **Limitation:** Logistic regression models statistical associations, not physical mechanical failure causality.
+
+## 6. Additional Skill 1: Data Quality Audit
+```{r quality}
+colSums(is.na(df))
+```
+* **Validation Check:** Confirms zero missing values affect our downstream risk models.
+
+## 7. Additional Skill 2: Risk Ranking
+```{r risk}
+df$risk <- predict(model, type = "response")
+head(df[order(-df$risk), c("device_id", "device_type", "risk")], 10)
+```
+* **Decision Supported:** Produces an actionable priority queue of the top 10 highest-risk machines needing maintenance this week.
+
+## 8. Additional Skill 3: Trend Analysis
+```{r trend}
+df$month <- format(as.Date(df$log_date), "%Y-%m")
+monthly_trend <- aggregate(unexpected_failure ~ month, data = df, FUN = sum)
+print(monthly_trend)
+
+barplot(monthly_trend$unexpected_failure, names.arg = monthly_trend$month, 
+        col = "orange", main = "Monthly Unexpected Failures Trend", 
+        xlab = "Month", ylab = "Failures", las = 2)
+```
+* **Interpretation:** Tracks monthly failure counts to assist long-term staffing and capacity planning.
+* **Limitation:** Aggregating by month masks daily operational spikes.
+
+## 9. Google Antigravity and Agent Skills Usage
+* **Requests Given:** Requested assistance structuring a multi-part Quarto report, generating a synthetic clinical dataset, and formatting statistical skill blocks.
+* **Skill Files Created:** Created `SKILL.md` documents under `skills/explore`, `skills/compare`, `skills/model`, `skills/data-quality-audit`, `skills/risk-ranking`, and `skills/trend-analysis`.
+* **Corrections Made:** Reviewed agent outputs to ensure accurate dataset column names were passed to `glm()`, added explicit confusion matrix calculations for model evaluation, and added visual plotting for trend analysis.
+
+## 10. Limitations
+1. **Data Limitation:** Synthetic dataset created for operational workflow validation.
+2. **Statistical Limitation:** Associations do not establish causal root causes without mechanical inspection.
+3. **Implementation Limitation:** Runs in a local R session without live IoT telemetry integration.
+
+## 11. Application or Delivery
+The Hospital Equipment Operations Manager accesses this tool as a Level 1 Quarto Statistical Report. When updated dataset logs are placed in the `data/` directory, re-rendering this report automatically refreshes all exploratory statistics, t-tests, risk scores, priority repair lists, and trend visualizations.
+
+## 12. Reflection
+* **What Was Learned:** Gained hands-on experience connecting R statistical methods (logistic regression, t-tests) with structured agent skill instructions (`SKILL.md`) to drive real-world clinical operations decisions.
+* **Most Difficult Part:** Refining the agent prompts to ensure logistic regression evaluation metrics included explicit confusion matrices rather than raw model summaries alone.
+* **Selection of Custom Skills:** Custom skills were selected to follow an operational pipeline: verifying data completeness first (Data Quality Audit), identifying high-risk assets (Risk Ranking), and planning monthly staffing (Trend Analysis).
+* **Future Improvements:** Given more time, I would integrate a live Shiny interface or Plumber API (Level 3) to stream real-time IoT sensor data directly into the risk model.
