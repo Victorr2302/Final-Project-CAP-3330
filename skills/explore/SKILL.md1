@@ -1,0 +1,21 @@
+# Explore Skill: Downtime Distribution
+## Purpose
+Perform exploratory analysis on hospital equipment downtime hours.
+## When to Use
+During initial operational data inspection.
+## Required Inputs
+equipment_data.csv containing downtime_hours.
+## Files Used
+data/equipment_data.csv, final_report.qmd
+## Method
+Summary statistics and histogram visualization (`summary()`, `hist()`).
+## Procedure
+Run code chunk in final_report.qmd.
+## Validation
+Verify skewness and non-negative downtime values.
+## Output
+Summary table and skyblue distribution histogram.
+## Interpretation
+Identifies whether equipment breakdowns are right-skewed or uniform.
+## Limitation
+Extreme outliers can disproportionately inflate the mean.

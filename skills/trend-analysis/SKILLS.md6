@@ -1,0 +1,21 @@
+# Trend Analysis Skill
+## Purpose
+Track failure volume trends over time to assist capacity planning.
+## When to Use
+Monthly operational review and staffing planning.
+## Required Inputs
+log_date and unexpected_failure variables.
+## Files Used
+data/equipment_data.csv, final_report.qmd
+## Method
+Date formatting (`format()`), aggregation (`aggregate()`), and barplot visualization (`barplot()`).
+## Procedure
+Run trend code chunk in final_report.qmd.
+## Validation
+Confirm chronological monthly ordering and valid non-negative counts.
+## Output
+Monthly aggregated failure count table and barplot visualization.
+## Interpretation
+Highlights longitudinal patterns in failure events.
+## Limitation
+Aggregating by month masks daily operational spikes.

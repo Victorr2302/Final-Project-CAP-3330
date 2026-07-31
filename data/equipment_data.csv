@@ -1,0 +1,301 @@
+"device_id","device_type","usage_category","device_age_years","operating_hours","downtime_hours","last_service_months_ago","unexpected_failure","log_date"
+"DEV-1001","MRI","Standard-Use",6.5,933,18.2,19,0,2025-03-30
+"DEV-1002","MRI","Standard-Use",4.1,666,8.9,3,1,2025-12-07
+"DEV-1003","MRI","Standard-Use",9.5,2304,40.5,1,1,2025-01-30
+"DEV-1004","MRI","Standard-Use",4.3,552,12,5,0,2025-05-14
+"DEV-1005","CT Scanner","High-Use",6.7,3056,76.6,12,1,2025-05-22
+"DEV-1006","Ultrasound","High-Use",6.3,4752,17.3,6,1,2025-09-23
+"DEV-1007","CT Scanner","Standard-Use",9.5,2045,14.1,6,1,2025-11-07
+"DEV-1008","CT Scanner","Standard-Use",2.8,1600,45.5,14,1,2025-03-05
+"DEV-1009","MRI","Standard-Use",5.9,2938,30.3,20,1,2025-06-29
+"DEV-1010","Ultrasound","Standard-Use",6.8,1030,14.4,13,0,2025-01-09
+"DEV-1011","Ventilator","Standard-Use",6.2,2187,27.8,19,0,2025-02-26
+"DEV-1012","Ultrasound","High-Use",6.8,1974,48.1,23,0,2025-07-16
+"DEV-1013","Ventilator","Standard-Use",8.5,4762,40.5,2,1,2025-06-12
+"DEV-1014","Ultrasound","Standard-Use",4.9,4598,12.1,17,1,2025-11-09
+"DEV-1015","MRI","Standard-Use",10.2,3931,23.6,15,1,2025-03-05
+"DEV-1016","MRI","High-Use",11.1,3911,21.9,3,1,2025-01-01
+"DEV-1017","CT Scanner","Standard-Use",2.2,4993,44.6,3,1,2025-04-15
+"DEV-1018","Ultrasound","High-Use",3.3,3112,38.3,17,1,2025-12-12
+"DEV-1019","CT Scanner","High-Use",6.4,1460,12.5,4,0,2025-06-29
+"DEV-1020","CT Scanner","High-Use",4.6,1101,40.5,1,1,2025-06-05
+"DEV-1021","Ventilator","Standard-Use",6.2,4065,36.9,8,1,2025-06-16
+"DEV-1022","Ventilator","Standard-Use",7.4,4919,36.7,18,1,2025-09-18
+"DEV-1023","MRI","Standard-Use",3.5,4919,56.9,17,1,2025-02-22
+"DEV-1024","MRI","Standard-Use",9.1,1064,12,22,1,2025-07-23
+"DEV-1025","Ventilator","Standard-Use",2.7,3282,20,21,0,2025-11-02
+"DEV-1026","Ultrasound","High-Use",8.7,4362,8.8,12,1,2025-11-04
+"DEV-1027","MRI","Standard-Use",3.9,1127,16.1,2,1,2025-07-28
+"DEV-1028","Ventilator","High-Use",5.7,2150,13.2,18,1,2025-07-12
+"DEV-1029","MRI","High-Use",8.9,1207,30.5,23,1,2025-11-19
+"DEV-1030","MRI","High-Use",6.2,2515,29.1,20,0,2025-07-19
+"DEV-1031","Ultrasound","High-Use",4.7,2686,23.8,7,1,2025-06-21
+"DEV-1032","CT Scanner","Standard-Use",3.6,4776,12.7,6,1,2025-09-23
+"DEV-1033","Ultrasound","Standard-Use",3.4,4571,40.4,2,0,2025-05-20
+"DEV-1034","Ultrasound","Standard-Use",3.7,4731,27.3,3,0,2025-11-15
+"DEV-1035","Ventilator","High-Use",7.2,3981,31.8,11,1,2025-12-08
+"DEV-1036","CT Scanner","Standard-Use",8.8,915,40.7,6,0,2025-04-26
+"DEV-1037","MRI","Standard-Use",2.2,573,21.7,9,0,2025-10-30
+"DEV-1038","CT Scanner","Standard-Use",6.7,2001,51.3,3,1,2025-03-23
+"DEV-1039","Ultrasound","High-Use",10.4,1588,48.5,20,1,2025-08-19
+"DEV-1040","CT Scanner","Standard-Use",8.9,4064,21.5,23,1,2025-08-24
+"DEV-1041","Ventilator","Standard-Use",4.5,2734,12.7,23,0,2025-03-04
+"DEV-1042","Ventilator","Standard-Use",2.3,2812,15.2,2,0,2025-02-20
+"DEV-1043","CT Scanner","High-Use",7.3,826,37.1,10,0,2025-03-24
+"DEV-1044","CT Scanner","Standard-Use",10.1,2053,12.8,12,1,2025-10-05
+"DEV-1045","Ultrasound","Standard-Use",6.7,3903,56,20,1,2025-06-23
+"DEV-1046","Ultrasound","Standard-Use",8.6,2233,37.8,12,1,2025-04-04
+"DEV-1047","Ultrasound","High-Use",6.5,531,44.3,10,0,2025-11-28
+"DEV-1048","CT Scanner","Standard-Use",4.9,3733,19.1,20,1,2025-09-22
+"DEV-1049","CT Scanner","High-Use",11.6,3006,46.6,4,1,2025-12-20
+"DEV-1050","MRI","High-Use",11.1,815,26.5,17,1,2025-05-29
+"DEV-1051","Ultrasound","Standard-Use",3.3,2065,3.3,15,0,2025-02-23
+"DEV-1052","MRI","Standard-Use",11.5,2359,23.2,23,1,2025-01-25
+"DEV-1053","Ultrasound","Standard-Use",10.6,1902,12.6,12,1,2025-10-09
+"DEV-1054","CT Scanner","Standard-Use",8.7,3819,19.4,20,0,2025-08-29
+"DEV-1055","Ultrasound","High-Use",6.6,2248,14.6,23,0,2025-09-14
+"DEV-1056","CT Scanner","Standard-Use",6.3,3287,8.8,12,0,2025-07-26
+"DEV-1057","Ventilator","High-Use",3.2,3306,13.4,2,0,2025-09-18
+"DEV-1058","Ultrasound","High-Use",2.1,4111,5.6,21,0,2025-10-20
+"DEV-1059","Ventilator","Standard-Use",6.2,3443,9.6,6,1,2025-07-24
+"DEV-1060","MRI","Standard-Use",4.4,3558,4.7,3,0,2025-05-13
+"DEV-1061","MRI","Standard-Use",9.5,2348,19.6,12,1,2025-10-29
+"DEV-1062","CT Scanner","High-Use",10.9,3485,49.9,19,1,2025-04-06
+"DEV-1063","CT Scanner","Standard-Use",4.7,622,14.6,17,1,2025-03-01
+"DEV-1064","CT Scanner","High-Use",10.1,4172,19.1,16,1,2025-03-31
+"DEV-1065","CT Scanner","High-Use",3.4,838,16.4,14,0,2025-06-03
+"DEV-1066","CT Scanner","Standard-Use",9.4,4554,78.3,10,1,2025-11-10
+"DEV-1067","Ultrasound","High-Use",7.2,819,48.2,8,0,2025-08-05
+"DEV-1068","Ventilator","High-Use",5.7,1360,9.4,6,0,2025-01-29
+"DEV-1069","CT Scanner","Standard-Use",10.2,3996,10.1,15,1,2025-12-27
+"DEV-1070","MRI","Standard-Use",4.2,1414,21.2,1,0,2025-08-30
+"DEV-1071","CT Scanner","Standard-Use",6.2,2317,70.6,7,1,2025-02-08
+"DEV-1072","Ventilator","Standard-Use",9.6,2508,21.2,13,1,2025-01-24
+"DEV-1073","CT Scanner","High-Use",1.9,3228,12.3,5,1,2025-03-17
+"DEV-1074","CT Scanner","Standard-Use",5.3,3094,13.6,17,0,2025-02-02
+"DEV-1075","CT Scanner","High-Use",2.1,768,35.6,17,1,2025-04-15
+"DEV-1076","Ultrasound","High-Use",2.5,1322,17.8,19,1,2025-03-04
+"DEV-1077","MRI","Standard-Use",3.4,1833,20.5,6,0,2025-03-24
+"DEV-1078","MRI","Standard-Use",4,2192,21.4,6,0,2025-08-30
+"DEV-1079","MRI","Standard-Use",4.3,3709,8.9,19,0,2025-02-05
+"DEV-1080","Ventilator","High-Use",5.1,1063,14.4,10,1,2025-01-24
+"DEV-1081","Ultrasound","Standard-Use",6.4,2432,41.3,15,0,2025-02-13
+"DEV-1082","MRI","Standard-Use",10.7,637,31.6,17,1,2025-06-28
+"DEV-1083","CT Scanner","Standard-Use",9.2,2544,65.3,12,1,2025-12-27
+"DEV-1084","MRI","Standard-Use",11.5,4074,14.9,2,1,2025-12-30
+"DEV-1085","MRI","Standard-Use",4.7,2621,57.5,22,1,2025-01-27
+"DEV-1086","Ultrasound","High-Use",10.1,1564,16.4,2,1,2025-01-10
+"DEV-1087","Ultrasound","Standard-Use",2.5,4492,49.4,2,0,2025-06-04
+"DEV-1088","MRI","High-Use",2.4,1067,47.4,4,0,2025-02-01
+"DEV-1089","Ventilator","Standard-Use",9,1712,25.8,8,1,2025-01-29
+"DEV-1090","Ventilator","Standard-Use",7,4471,17.7,5,1,2025-07-29
+"DEV-1091","MRI","High-Use",7.7,3877,11.5,16,1,2025-08-03
+"DEV-1092","Ultrasound","Standard-Use",2.4,940,11.2,19,0,2025-02-22
+"DEV-1093","MRI","High-Use",10.6,4170,22.4,2,1,2025-04-01
+"DEV-1094","Ultrasound","Standard-Use",10.3,4363,28.9,5,1,2025-01-07
+"DEV-1095","Ultrasound","High-Use",1.5,1027,11.2,19,0,2025-07-21
+"DEV-1096","CT Scanner","Standard-Use",8.8,1118,38.2,10,1,2025-05-03
+"DEV-1097","MRI","High-Use",6.9,2967,20.7,5,1,2025-11-19
+"DEV-1098","Ultrasound","High-Use",11.4,766,20.7,13,1,2025-02-15
+"DEV-1099","CT Scanner","Standard-Use",11,2730,22.7,3,1,2025-11-25
+"DEV-1100","CT Scanner","Standard-Use",6,533,8.8,16,1,2025-06-26
+"DEV-1101","CT Scanner","Standard-Use",9.4,4317,23.3,12,1,2025-09-25
+"DEV-1102","Ultrasound","Standard-Use",6.6,782,25.5,4,0,2025-01-08
+"DEV-1103","MRI","High-Use",3.2,4189,64.1,4,0,2025-03-03
+"DEV-1104","CT Scanner","Standard-Use",8.9,2927,26.2,4,1,2025-01-09
+"DEV-1105","MRI","High-Use",9.4,2746,9.2,17,1,2025-01-07
+"DEV-1106","CT Scanner","Standard-Use",8.8,600,17.7,1,0,2025-07-11
+"DEV-1107","Ultrasound","High-Use",3.1,2993,35.1,18,1,2025-01-13
+"DEV-1108","Ventilator","Standard-Use",4.3,3740,7.2,4,1,2025-08-05
+"DEV-1109","Ultrasound","Standard-Use",4.6,1561,89.8,24,1,2025-03-23
+"DEV-1110","MRI","Standard-Use",7.3,4153,13.2,8,0,2025-10-08
+"DEV-1111","Ultrasound","Standard-Use",10.7,2397,28.2,10,1,2025-12-02
+"DEV-1112","MRI","Standard-Use",10.6,3042,30.9,10,1,2025-08-15
+"DEV-1113","Ultrasound","Standard-Use",5.2,1183,52.6,2,0,2025-05-09
+"DEV-1114","Ventilator","High-Use",9.1,1377,25.6,21,1,2025-07-08
+"DEV-1115","CT Scanner","Standard-Use",9.8,1251,26.4,19,1,2025-08-26
+"DEV-1116","CT Scanner","Standard-Use",9,4258,35,3,1,2025-01-15
+"DEV-1117","Ventilator","Standard-Use",5.2,1000,22.1,20,1,2025-05-05
+"DEV-1118","MRI","High-Use",4.3,1706,13.7,20,0,2025-12-11
+"DEV-1119","MRI","Standard-Use",1.6,4093,38.2,3,1,2025-04-15
+"DEV-1120","CT Scanner","Standard-Use",8.4,1845,15.3,19,0,2025-12-11
+"DEV-1121","Ventilator","Standard-Use",3.2,4404,33.1,18,1,2025-10-13
+"DEV-1122","Ultrasound","Standard-Use",7.9,677,73.9,16,0,2025-04-05
+"DEV-1123","Ultrasound","High-Use",2.5,2029,8.4,13,0,2025-05-11
+"DEV-1124","CT Scanner","High-Use",5.1,1893,59.9,14,1,2025-06-24
+"DEV-1125","Ultrasound","Standard-Use",4.5,1083,8.2,15,1,2025-07-18
+"DEV-1126","MRI","Standard-Use",10,2182,44.2,10,1,2025-05-03
+"DEV-1127","MRI","Standard-Use",5.1,2592,31.1,5,1,2025-04-10
+"DEV-1128","Ultrasound","Standard-Use",5.8,710,31.5,2,0,2025-09-22
+"DEV-1129","MRI","High-Use",5.8,4944,49.9,14,1,2025-02-28
+"DEV-1130","MRI","Standard-Use",7.6,4588,21.1,7,1,2025-03-09
+"DEV-1131","MRI","Standard-Use",5.4,4907,7.3,16,1,2025-07-27
+"DEV-1132","CT Scanner","Standard-Use",11.5,1267,25.3,4,1,2025-12-17
+"DEV-1133","Ventilator","Standard-Use",11.7,692,107.2,23,1,2025-03-05
+"DEV-1134","MRI","Standard-Use",11.1,1143,9.2,18,1,2025-10-19
+"DEV-1135","CT Scanner","High-Use",1.9,2123,5.9,9,0,2025-04-02
+"DEV-1136","Ultrasound","Standard-Use",6.2,2950,18.4,13,0,2025-02-08
+"DEV-1137","Ultrasound","Standard-Use",4.7,4718,12,1,1,2025-03-13
+"DEV-1138","MRI","Standard-Use",8.4,3360,31.5,18,1,2025-09-18
+"DEV-1139","Ventilator","Standard-Use",8,2681,48.7,12,1,2025-10-04
+"DEV-1140","CT Scanner","Standard-Use",10.5,887,21.4,17,1,2025-07-25
+"DEV-1141","MRI","High-Use",11.4,4752,22.3,4,1,2025-08-22
+"DEV-1142","MRI","High-Use",7.3,2060,75.8,12,1,2025-10-14
+"DEV-1143","CT Scanner","Standard-Use",6.9,2162,31.8,7,0,2025-06-29
+"DEV-1144","MRI","High-Use",11.4,3309,14.9,2,0,2025-03-18
+"DEV-1145","MRI","Standard-Use",10.8,3773,38.9,12,1,2025-01-09
+"DEV-1146","Ventilator","Standard-Use",5.5,1391,31.1,7,1,2025-06-22
+"DEV-1147","Ultrasound","Standard-Use",1.6,3149,61.7,14,0,2025-04-27
+"DEV-1148","CT Scanner","High-Use",9.6,4293,63,17,1,2025-10-21
+"DEV-1149","Ventilator","High-Use",11.2,4997,4.5,13,1,2025-03-19
+"DEV-1150","CT Scanner","Standard-Use",5.2,551,26.8,8,1,2025-05-25
+"DEV-1151","CT Scanner","Standard-Use",3.7,4196,72.6,17,1,2025-06-04
+"DEV-1152","Ultrasound","Standard-Use",2,1425,69.7,2,1,2025-10-03
+"DEV-1153","MRI","High-Use",5.3,1012,22.5,5,0,2025-08-30
+"DEV-1154","Ventilator","High-Use",3,3596,73.9,4,0,2025-07-26
+"DEV-1155","MRI","Standard-Use",2.5,1728,32.2,8,0,2025-09-24
+"DEV-1156","MRI","Standard-Use",3.8,4204,25.6,7,0,2025-08-11
+"DEV-1157","MRI","Standard-Use",7.1,3400,16.6,8,1,2025-04-17
+"DEV-1158","Ventilator","High-Use",2.6,2876,36.3,15,0,2025-09-19
+"DEV-1159","Ventilator","High-Use",11.6,629,16.8,11,1,2025-01-28
+"DEV-1160","Ultrasound","High-Use",11.4,1792,5.4,22,1,2025-07-11
+"DEV-1161","MRI","Standard-Use",11.9,660,56.5,20,1,2025-11-01
+"DEV-1162","CT Scanner","Standard-Use",8.8,4540,18,11,1,2025-03-16
+"DEV-1163","CT Scanner","High-Use",2.5,1089,4.1,21,0,2025-08-21
+"DEV-1164","Ventilator","Standard-Use",1.1,731,17,18,0,2025-03-25
+"DEV-1165","CT Scanner","Standard-Use",8.6,2138,47.3,12,1,2025-11-30
+"DEV-1166","Ultrasound","High-Use",8.5,3630,4.9,24,1,2025-04-05
+"DEV-1167","Ventilator","Standard-Use",11.1,4515,14.1,23,1,2025-12-24
+"DEV-1168","Ventilator","Standard-Use",5.5,1599,30.9,19,1,2025-06-09
+"DEV-1169","CT Scanner","Standard-Use",5.6,2264,10.9,3,1,2025-02-22
+"DEV-1170","MRI","High-Use",6.9,3291,26.4,12,1,2025-09-09
+"DEV-1171","Ultrasound","Standard-Use",5.6,3040,22.3,9,1,2025-03-13
+"DEV-1172","MRI","Standard-Use",2.1,686,27.3,7,0,2025-03-31
+"DEV-1173","Ultrasound","High-Use",5.2,2634,70.3,2,1,2025-01-21
+"DEV-1174","CT Scanner","High-Use",3.2,4771,55.7,10,1,2025-07-20
+"DEV-1175","MRI","Standard-Use",9,1581,19.1,6,1,2025-08-22
+"DEV-1176","CT Scanner","Standard-Use",1.1,3552,14.4,20,1,2025-01-08
+"DEV-1177","Ventilator","Standard-Use",11.1,4610,32.7,12,1,2025-09-14
+"DEV-1178","CT Scanner","High-Use",10.9,705,7.5,5,1,2025-01-02
+"DEV-1179","CT Scanner","Standard-Use",9.3,1114,37.3,20,1,2025-11-10
+"DEV-1180","Ultrasound","High-Use",11.5,952,35.8,17,1,2025-07-08
+"DEV-1181","CT Scanner","Standard-Use",7.9,2343,72.8,20,0,2025-11-29
+"DEV-1182","CT Scanner","Standard-Use",8.2,4865,25.1,6,1,2025-06-18
+"DEV-1183","CT Scanner","High-Use",5.2,2138,24.9,2,1,2025-01-23
+"DEV-1184","Ventilator","Standard-Use",1.7,3762,3.2,3,1,2025-01-08
+"DEV-1185","CT Scanner","High-Use",8.6,3662,26.6,12,1,2025-03-04
+"DEV-1186","Ultrasound","Standard-Use",2.4,612,26.1,16,0,2025-04-29
+"DEV-1187","Ultrasound","High-Use",4.2,4757,51.6,11,0,2025-11-26
+"DEV-1188","Ventilator","Standard-Use",8,2901,33.1,20,1,2025-03-06
+"DEV-1189","CT Scanner","Standard-Use",5.3,3633,47.7,9,0,2025-09-06
+"DEV-1190","CT Scanner","Standard-Use",1.8,704,8.3,24,1,2025-05-27
+"DEV-1191","Ventilator","High-Use",10.5,4625,11.9,18,1,2025-09-23
+"DEV-1192","Ultrasound","Standard-Use",5.2,648,27.8,7,1,2025-04-14
+"DEV-1193","CT Scanner","High-Use",8.4,3998,11.6,13,1,2025-01-16
+"DEV-1194","Ultrasound","Standard-Use",1.2,2868,33.1,10,0,2025-03-04
+"DEV-1195","Ultrasound","Standard-Use",7.5,1698,72,15,1,2025-10-07
+"DEV-1196","CT Scanner","Standard-Use",4,2772,27.3,12,0,2025-12-14
+"DEV-1197","MRI","High-Use",5.4,2896,38.3,9,1,2025-02-27
+"DEV-1198","MRI","Standard-Use",2.6,891,44.6,24,0,2025-07-15
+"DEV-1199","CT Scanner","Standard-Use",10.1,4620,21.1,14,1,2025-03-15
+"DEV-1200","Ultrasound","Standard-Use",2.5,3038,18.2,2,0,2025-01-09
+"DEV-1201","Ultrasound","Standard-Use",11,767,51.5,1,1,2025-07-24
+"DEV-1202","CT Scanner","Standard-Use",10.9,3527,29,14,1,2025-11-24
+"DEV-1203","MRI","Standard-Use",3.1,3323,52.5,22,1,2025-09-21
+"DEV-1204","Ultrasound","High-Use",6.9,828,22.5,13,1,2025-06-27
+"DEV-1205","Ventilator","Standard-Use",6.7,2470,12.7,15,0,2025-12-02
+"DEV-1206","MRI","High-Use",2.8,3387,50.9,3,0,2025-07-04
+"DEV-1207","CT Scanner","Standard-Use",6.7,4145,31.9,19,1,2025-04-19
+"DEV-1208","CT Scanner","Standard-Use",3.5,2263,25.9,13,1,2025-04-25
+"DEV-1209","CT Scanner","High-Use",4.1,3980,13.7,17,1,2025-10-19
+"DEV-1210","Ultrasound","Standard-Use",6.5,4430,93.1,6,1,2025-06-07
+"DEV-1211","CT Scanner","Standard-Use",2.7,3282,12.9,6,1,2025-12-07
+"DEV-1212","Ventilator","High-Use",11.1,2110,33.9,8,1,2025-09-23
+"DEV-1213","Ultrasound","Standard-Use",6.5,4695,18.1,19,1,2025-12-22
+"DEV-1214","Ventilator","Standard-Use",7.8,3851,1.1,12,1,2025-10-11
+"DEV-1215","CT Scanner","Standard-Use",9.2,786,67.6,9,0,2025-02-28
+"DEV-1216","MRI","Standard-Use",7.8,987,65.7,23,1,2025-12-29
+"DEV-1217","Ultrasound","Standard-Use",11.2,4185,50.2,14,1,2025-01-28
+"DEV-1218","CT Scanner","Standard-Use",1.9,4069,52.7,6,1,2025-09-12
+"DEV-1219","MRI","Standard-Use",1.3,757,46.6,14,0,2025-09-26
+"DEV-1220","CT Scanner","Standard-Use",7,4584,43.1,2,1,2025-11-05
+"DEV-1221","MRI","High-Use",3.7,3747,25.6,19,0,2025-04-28
+"DEV-1222","MRI","High-Use",8.1,4562,9.1,23,1,2025-05-10
+"DEV-1223","MRI","High-Use",5.2,2911,61.3,9,1,2025-10-29
+"DEV-1224","Ventilator","Standard-Use",1.5,2068,7.9,8,1,2025-10-21
+"DEV-1225","CT Scanner","High-Use",1.5,4250,64.8,13,1,2025-09-09
+"DEV-1226","CT Scanner","High-Use",11.6,4056,41.7,11,1,2025-05-07
+"DEV-1227","Ultrasound","Standard-Use",3.5,2891,30.1,14,1,2025-03-16
+"DEV-1228","CT Scanner","High-Use",1.1,4004,3.5,6,1,2025-11-17
+"DEV-1229","MRI","Standard-Use",3.4,763,2.5,1,0,2025-08-11
+"DEV-1230","MRI","Standard-Use",1.6,2561,10.9,19,0,2025-04-04
+"DEV-1231","Ventilator","High-Use",3.6,600,132.5,21,1,2025-11-15
+"DEV-1232","CT Scanner","Standard-Use",5.4,3830,42.5,8,1,2025-03-15
+"DEV-1233","CT Scanner","High-Use",1.2,3676,45.9,13,1,2025-01-29
+"DEV-1234","Ventilator","High-Use",5,526,38.7,11,1,2025-06-01
+"DEV-1235","Ventilator","Standard-Use",7.4,2618,12.8,7,1,2025-07-08
+"DEV-1236","MRI","Standard-Use",7.7,3183,12.3,12,1,2025-10-28
+"DEV-1237","Ventilator","Standard-Use",3.9,1778,46.1,9,1,2025-10-06
+"DEV-1238","Ultrasound","Standard-Use",8.4,748,34.5,15,0,2025-02-18
+"DEV-1239","CT Scanner","Standard-Use",11.3,2200,8,9,1,2025-02-24
+"DEV-1240","Ultrasound","Standard-Use",1,2886,12.5,21,1,2025-12-26
+"DEV-1241","MRI","High-Use",9.7,1629,15.2,11,1,2025-02-22
+"DEV-1242","Ventilator","High-Use",9.9,4748,19.7,15,1,2025-02-18
+"DEV-1243","Ventilator","Standard-Use",1.8,2469,43.9,11,0,2025-12-16
+"DEV-1244","CT Scanner","Standard-Use",7.2,3655,30,22,1,2025-09-09
+"DEV-1245","Ultrasound","Standard-Use",6.9,1291,7.9,21,1,2025-08-29
+"DEV-1246","Ultrasound","High-Use",2.5,1589,6.3,12,1,2025-01-20
+"DEV-1247","Ultrasound","High-Use",4,607,62.3,14,0,2025-05-10
+"DEV-1248","Ventilator","Standard-Use",4.9,1979,6.6,21,1,2025-08-03
+"DEV-1249","MRI","Standard-Use",9.9,2359,13.6,9,1,2025-07-18
+"DEV-1250","MRI","Standard-Use",2.9,989,45.5,11,0,2025-06-22
+"DEV-1251","MRI","High-Use",6.7,4334,13.2,1,1,2025-06-02
+"DEV-1252","CT Scanner","Standard-Use",9.4,541,2.3,8,1,2025-08-02
+"DEV-1253","MRI","High-Use",4.2,4864,39.4,11,1,2025-10-31
+"DEV-1254","Ventilator","Standard-Use",5.8,4121,30.2,12,1,2025-10-22
+"DEV-1255","CT Scanner","Standard-Use",8.4,2755,9.7,11,1,2025-02-26
+"DEV-1256","Ultrasound","Standard-Use",1.4,4704,30.7,2,1,2025-03-21
+"DEV-1257","Ventilator","High-Use",7.2,2605,31.2,3,1,2025-03-16
+"DEV-1258","MRI","Standard-Use",11.3,2799,26.3,24,1,2025-05-23
+"DEV-1259","MRI","High-Use",5.8,4245,7.5,15,1,2025-04-03
+"DEV-1260","Ultrasound","High-Use",11.3,1223,27.6,3,1,2025-11-04
+"DEV-1261","MRI","High-Use",11.8,2846,23.8,9,1,2025-01-01
+"DEV-1262","MRI","Standard-Use",8.4,2451,13.8,9,1,2025-01-18
+"DEV-1263","MRI","Standard-Use",4.3,1993,33,20,0,2025-04-06
+"DEV-1264","Ultrasound","Standard-Use",3.3,2516,26,2,0,2025-12-30
+"DEV-1265","CT Scanner","Standard-Use",4.5,685,22.4,6,0,2025-07-16
+"DEV-1266","Ventilator","Standard-Use",10.4,1595,9.7,5,0,2025-01-08
+"DEV-1267","Ultrasound","High-Use",1.7,964,11.4,17,0,2025-03-25
+"DEV-1268","Ventilator","Standard-Use",3,2134,63.2,23,0,2025-01-10
+"DEV-1269","Ultrasound","Standard-Use",6.3,3460,15.7,23,1,2025-10-01
+"DEV-1270","Ventilator","High-Use",4.7,2413,10.1,20,0,2025-12-03
+"DEV-1271","MRI","High-Use",9.9,825,22.3,9,1,2025-01-14
+"DEV-1272","MRI","Standard-Use",10.6,3592,30.9,11,1,2025-12-05
+"DEV-1273","Ultrasound","High-Use",1.2,4338,22.6,23,1,2025-12-12
+"DEV-1274","MRI","Standard-Use",10.1,4402,35.3,3,1,2025-09-25
+"DEV-1275","CT Scanner","Standard-Use",5.4,901,31.1,21,0,2025-09-16
+"DEV-1276","Ventilator","High-Use",8.4,559,33.9,9,1,2025-12-06
+"DEV-1277","Ultrasound","Standard-Use",2.3,2405,32.5,9,0,2025-05-10
+"DEV-1278","Ventilator","Standard-Use",6.2,4880,63.4,11,1,2025-04-05
+"DEV-1279","MRI","High-Use",11.2,2746,7.3,2,1,2025-03-11
+"DEV-1280","Ventilator","Standard-Use",7.3,4976,21.6,23,1,2025-06-27
+"DEV-1281","Ultrasound","Standard-Use",11,2727,21.3,8,1,2025-03-11
+"DEV-1282","CT Scanner","High-Use",9.3,1054,55.1,20,1,2025-06-05
+"DEV-1283","Ventilator","High-Use",7.9,3022,14.1,3,1,2025-11-29
+"DEV-1284","Ultrasound","High-Use",9.7,1577,17.1,17,0,2025-10-31
+"DEV-1285","CT Scanner","Standard-Use",11.2,3764,40.9,15,1,2025-02-20
+"DEV-1286","Ventilator","Standard-Use",2.8,4037,34,16,0,2025-08-23
+"DEV-1287","Ventilator","High-Use",3.1,2524,51.5,1,0,2025-08-02
+"DEV-1288","MRI","High-Use",2.1,2611,6.8,3,0,2025-11-14
+"DEV-1289","MRI","Standard-Use",10.1,2308,27.6,13,1,2025-02-09
+"DEV-1290","MRI","High-Use",9.9,4561,10.3,12,1,2025-11-07
+"DEV-1291","Ventilator","Standard-Use",4.1,3037,52.9,15,0,2025-05-27
+"DEV-1292","CT Scanner","High-Use",5.9,3609,9.7,21,1,2025-11-19
+"DEV-1293","MRI","Standard-Use",7.9,1995,19.7,6,1,2025-04-29
+"DEV-1294","Ventilator","High-Use",5.1,927,33.7,17,0,2025-03-17
+"DEV-1295","Ultrasound","High-Use",5.2,4721,4.3,16,0,2025-02-28
+"DEV-1296","Ultrasound","Standard-Use",11.1,3520,31,3,1,2025-02-22
+"DEV-1297","Ventilator","Standard-Use",5.3,567,17.6,7,1,2025-02-19
+"DEV-1298","MRI","Standard-Use",1.8,1009,21.5,21,0,2025-11-05
+"DEV-1299","MRI","Standard-Use",8.8,4315,25.4,2,1,2025-12-26
+"DEV-1300","Ultrasound","Standard-Use",8.6,2511,9.6,7,1,2025-09-12

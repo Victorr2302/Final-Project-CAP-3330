@@ -1,0 +1,21 @@
+# Data Quality Audit Skill
+## Purpose
+Audit dataset for missing values and structural data integrity.
+## When to Use
+Prior to running downstream statistical models or visualizations.
+## Required Inputs
+Raw dataframe `df`.
+## Files Used
+data/equipment_data.csv, final_report.qmd
+## Method
+Column-wise NA summation (`colSums(is.na(df))`).
+## Procedure
+Run quality audit code chunk in final_report.qmd.
+## Validation
+Verify zero missing values across all critical columns.
+## Output
+Named vector displaying count of missing values per variable.
+## Interpretation
+Confirms dataset completeness for modeling reliability.
+## Limitation
+Checks missingness only, not invalid numerical entry anomalies.

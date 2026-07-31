@@ -1,0 +1,21 @@
+# Risk Ranking Skill
+## Purpose
+Generate prioritized equipment risk list for targeted maintenance.
+## When to Use
+Weekly maintenance scheduling operations.
+## Required Inputs
+Trained logistic regression model and operational device records.
+## Files Used
+data/equipment_data.csv, final_report.qmd
+## Method
+Model response prediction (`predict(..., type = "response")`) and sorting (`order()`).
+## Procedure
+Run risk code chunk in final_report.qmd.
+## Validation
+Verify output probabilities fall strictly between 0.0 and 1.0.
+## Output
+Top 10 priority queue dataframe with device ID, type, and failure risk score.
+## Interpretation
+Directly guides technician dispatch to highest-risk clinical assets.
+## Limitation
+Static predictions based on historical logs without live streaming sensor updates.

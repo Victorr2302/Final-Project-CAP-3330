@@ -1,0 +1,21 @@
+# Model Skill: Predicting Unexpected Failures
+## Purpose
+Predict probability of unexpected device failure using equipment attributes.
+## When to Use
+Building predictive maintenance alert models.
+## Required Inputs
+equipment_data.csv with unexpected_failure, device_age_years, operating_hours, and last_service_months_ago.
+## Files Used
+data/equipment_data.csv, final_report.qmd
+## Method
+Logistic Regression GLM (`glm(family = binomial)`).
+## Procedure
+Run model code chunk in final_report.qmd and calculate confusion matrix.
+## Validation
+Check model AIC, coefficient significance (p-values), and overall accuracy.
+## Output
+Regression coefficients summary, confusion matrix, and overall accuracy %.
+## Interpretation
+Quantifies risk factors for device breakdown.
+## Limitation
+Models statistical correlations rather than physical mechanical causality.

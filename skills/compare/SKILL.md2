@@ -1,0 +1,21 @@
+# Compare Skill: High-Use vs Standard-Use
+## Purpose
+Compare downtime hours between equipment usage categories.
+## When to Use
+Evaluating operational usage impact on equipment performance.
+## Required Inputs
+equipment_data.csv with downtime_hours and usage_category.
+## Files Used
+data/equipment_data.csv, final_report.qmd
+## Method
+Welch Two Sample t-test (`t.test()`).
+## Procedure
+Run compare code chunk in final_report.qmd.
+## Validation
+Ensure two valid comparison groups with continuous metric output.
+## Output
+Degrees of freedom, p-value, 95% confidence interval, and group means.
+## Interpretation
+Determines statistical significance of breakdown severity between groups.
+## Limitation
+Does not control for device age or maintenance history directly.
